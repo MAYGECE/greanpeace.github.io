@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Greenpeace International</title>
+    <link rel="icon" href="/favicon-16x16.png" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="http://127.0.0.1:5500/index.html"
+          ><img src="/greenpeacelogo.png" alt="logo" width="180px"
+        /></a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="/issues.html"> Issues we work on</a></li>
+          <li><a href="/getinvolved.html">Get involved</a></li>
+          <li><a href="/news&story.html">News and Stories</a></li>
+          <li><a href="/aboutus.html">About us</a></li>
+          <li><a href="/donate.html" class="donate-btn">Donate</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="getinvolved">
+      <div>
+        <h1>There are lots of ways to get involved</h1>
+        <p>
+          Around the globe, we are standing up for our communities, and we are
+          holding governments and corporations accountable. Whether on the
+          streets or at the ballot box, we hold the real power when we work
+          together.
+        </p>
+        <div>
+          <img src="/involve.jpg" alt="peoplecaring" />
+        </div>
+      </div>
+      <form action="">
+        <fieldset>
+          <h1>Subscribe for updates</h1>
+          <h3>
+            Together we are part of a growing, global movement determined to
+            bring about the changes our planet desperately needs.
+          </h3>
+          <label for="fname">First name</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="Write down your name..."
+          />
+          <label for="fname">Last name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Write down your last name..."
+          /><br />
+          <label for="country">Select country or region</label>
+          <select name="country" id="country">
+            <option value="argentina">Argentina</option>
+            <option value="americansomoa">American Somoa</option>
+            <option value="albania">Albania</option>
+            <option value="algeria">Algeria</option>
+            <option value="andorra">Andorra</option>
+            <option value="angola">Angola</option>
+            <option value="anguilla">Anguilla</option>
+            <option value="antarctica">Antarctica</option>
+            <option value="bahamas">Bahamas</option>
+            <option value="bolivia">Bolivia</option>
+            <option value="brazil">Brazil</option>
+          </select>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email"
+          placeholder="gssubmit@gmail.com""><br />
+          <input
+            type="checkbox"
+            id="conditions"
+            name="conditions"
+            value="Accept"
+          />
+          <label for="conditions">
+            I am happy to receive email updates from Greenpeace International
+            about important campaigns.(Required)</label
+          ><br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>
